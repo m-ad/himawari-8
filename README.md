@@ -8,6 +8,8 @@ Original idea: https://gist.github.com/celoyd/b92d0de6fae1f18791ef
 
 The main difference between the original and this version is that this version works on Windows because it is almost entirely written in `python`. For generating the GIF from the image sequence, `ffmpeg` is called from a very simple batch file, that can be rewritten as a shell script for Linux users. 
 
+These scripts are comptible with `python 2.7`. For an updated version that is compatible with `python 3.6+`, see [this fork](https://github.com/ZeitOnline/himawari-8).
+
 ## Prerequisites:
 - `python 2.7` with `PIL` and `requests`
 - `ffmpeg`
